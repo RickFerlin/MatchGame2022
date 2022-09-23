@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -7139846385210733043}
   - component: {fileID: 7087363009238960167}
   - component: {fileID: 2699311526145659301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children: []
+  m_Children:
+  - {fileID: 3102269863656673760}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -114,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42f0a0a8896b754b877408c4384ac88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 3
+  seconds: 4
 --- !u!54 &1729214224389703507
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -124,7 +125,7 @@ Rigidbody:
   m_GameObject: {fileID: 6939375069033430107}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 3
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -208,11 +209,178 @@ MonoBehaviour:
   idObj: {fileID: 0}
   matchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2699311526145659301}
+        m_TargetAssemblyTypeName: ColorMatchBehaviour, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4589714508900043028}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   noMatchEvent:
     m_PersistentCalls:
       m_Calls: []
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
-  colorIDDataListObj: {fileID: 0}
+  colorIDDataListObj: {fileID: 11400000, guid: ce321c8f0d5257f48af2816a57d3fffa, type: 2}
+--- !u!1001 &8491442377849204346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6835008323226550170}
+    m_Modifications:
+    - target: {fileID: -3025774010102444494, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: idObj
+      value: 
+      objectReference: {fileID: 11400000, guid: 00585cb3c05362d4c958deaadd177526, type: 2}
+    - target: {fileID: -3025774010102444494, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: colorIDDataListObj
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729214224389703507, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729214224389703507, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361070113331603310, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_Color.a
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817763033953287512, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: seconds
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939375069033430107, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_Name
+      value: HiddenDot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939375069033430107, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -6850813411673880826, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+    - {fileID: -8627430857404957258, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+    - {fileID: 3535731674255793304, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+    - {fileID: -3025774010102444494, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+--- !u!1 &1556614901812040225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6939375069033430107, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+  m_PrefabInstance: {fileID: 8491442377849204346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3102269863656673760 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6835008323226550170, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+  m_PrefabInstance: {fileID: 8491442377849204346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4589714508900043028 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5361070113331603310, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+  m_PrefabInstance: {fileID: 8491442377849204346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3022840715810259555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6639678350024715289, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+  m_PrefabInstance: {fileID: 8491442377849204346}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556614901812040225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcfdfe63270deb4ebd19ad1a5a76a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &252745231029052906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556614901812040225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cf98797b02d20409540937cc66acba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: 6d4b11dcda92c72409146bfc133df1cd, type: 2}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3022840715810259555}
+        m_TargetAssemblyTypeName: SpriteBehaviour, Assembly-CSharp
+        m_MethodName: ChangeRendererColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 00585cb3c05362d4c958deaadd177526, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
