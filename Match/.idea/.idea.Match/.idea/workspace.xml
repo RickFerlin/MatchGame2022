@@ -6,16 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c2a9162c-2b4d-43e4-9e6b-ca17e7e2f3e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Match/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/Game Over.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/Game Over.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/GameOverUp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/GameOverUp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/RestartAppear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/RestartAppear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/RestartClick.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/UIAnims/RestartClick.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Dot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Dot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PreFabs/Ring.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PreFabs/Ring.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOs/Functions/Prefab Instancer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOs/Functions/Prefab Instancer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Instancing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Instancing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ColorMatchBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ColorMatchBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoroutineBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoroutineBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3DataList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityActions/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +84,8 @@
       <workItem from="1663197556816" duration="11979000" />
       <workItem from="1663268618046" duration="2395000" />
       <workItem from="1663802455006" duration="11288000" />
-      <workItem from="1663954991542" duration="1310000" />
+      <workItem from="1663954991542" duration="1352000" />
+      <workItem from="1664396706042" duration="2258000" />
     </task>
     <servers />
   </component>

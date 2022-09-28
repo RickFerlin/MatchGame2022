@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ecc764ec4fc03a448b5fa8f3f246115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
+  idObj: {fileID: 11400000, guid: 10d34e106d3da384eb5b6ac4a9fa4dbc, type: 2}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce6fd0cb27cf0943943bbb7b2dab870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
+  idObj: {fileID: 11400000, guid: 10d34e106d3da384eb5b6ac4a9fa4dbc, type: 2}
   matchEvent:
     m_PersistentCalls:
       m_Calls:
