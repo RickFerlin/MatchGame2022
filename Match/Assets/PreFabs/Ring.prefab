@@ -46,7 +46,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6939375069033430107}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -324,11 +324,27 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7300387051619887500, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: onRaiseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5361070113331603310}
+    - target: {fileID: 7300387051619887500, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: onRaiseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 4589714508900043028}
+    - target: {fileID: 7300387051619887500, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: onRaiseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300387051619887500, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+      propertyPath: onRaiseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6850813411673880826, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
     - {fileID: -8627430857404957258, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
-    - {fileID: 3535731674255793304, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
     - {fileID: -3025774010102444494, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
+    - {fileID: 3535731674255793304, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 29c101ac3cabf7940a316c5ab6719700, type: 3}
 --- !u!1 &1556614901812040225 stripped
 GameObject:
